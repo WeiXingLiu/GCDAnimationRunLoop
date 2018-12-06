@@ -1,8 +1,8 @@
 //
 //  AppDelegate.h
-//  GCDAnimationRunLoop
+//  GCD
 //
-//  Created by wahaha on 2018/12/6.
+//  Created by wahaha on 2018/10/30.
 //  Copyright © 2018年 LWX. All rights reserved.
 //
 

@@ -1,12 +1,14 @@
 //
 //  AppDelegate.m
-//  GCDAnimationRunLoop
+//  GCD
 //
-//  Created by wahaha on 2018/12/6.
+//  Created by wahaha on 2018/10/30.
 //  Copyright © 2018年 LWX. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "LWXNavigationController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    ViewController *viewController = [[ViewController alloc] init];
+    self.window.rootViewController = [[LWXNavigationController alloc] initWithRootViewController:viewController];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

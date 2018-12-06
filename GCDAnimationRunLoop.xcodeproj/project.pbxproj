@@ -15,6 +15,12 @@
 		7A36210421B9001500CD371D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A36210321B9001500CD371D /* main.m */; };
 		7A36210E21B9001500CD371D /* GCDAnimationRunLoopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A36210D21B9001500CD371D /* GCDAnimationRunLoopTests.m */; };
 		7A36211921B9001500CD371D /* GCDAnimationRunLoopUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A36211821B9001500CD371D /* GCDAnimationRunLoopUITests.m */; };
+		7A36213221B9004D00CD371D /* CAAnimationDelegateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A36212621B9004C00CD371D /* CAAnimationDelegateObject.m */; };
+		7A36213321B9004D00CD371D /* RunLoopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A36212821B9004C00CD371D /* RunLoopViewController.m */; };
+		7A36213421B9004D00CD371D /* KeyFrameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A36212921B9004D00CD371D /* KeyFrameViewController.m */; };
+		7A36213521B9004D00CD371D /* LWXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A36212D21B9004D00CD371D /* LWXNavigationController.m */; };
+		7A36213621B9004D00CD371D /* UIViewController+NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A36213021B9004D00CD371D /* UIViewController+NavigationBar.m */; };
+		7A36213721B9004D00CD371D /* BezierPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A36213121B9004D00CD371D /* BezierPathView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		7A36211421B9001500CD371D /* GCDAnimationRunLoopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCDAnimationRunLoopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A36211821B9001500CD371D /* GCDAnimationRunLoopUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDAnimationRunLoopUITests.m; sourceTree = "<group>"; };
 		7A36211A21B9001500CD371D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A36212621B9004C00CD371D /* CAAnimationDelegateObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAAnimationDelegateObject.m; sourceTree = "<group>"; };
+		7A36212721B9004C00CD371D /* CAAnimationDelegateObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAnimationDelegateObject.h; sourceTree = "<group>"; };
+		7A36212821B9004C00CD371D /* RunLoopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunLoopViewController.m; sourceTree = "<group>"; };
+		7A36212921B9004D00CD371D /* KeyFrameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyFrameViewController.m; sourceTree = "<group>"; };
+		7A36212A21B9004D00CD371D /* UIViewController+NavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavigationBar.h"; sourceTree = "<group>"; };
+		7A36212B21B9004D00CD371D /* RunLoopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunLoopViewController.h; sourceTree = "<group>"; };
+		7A36212C21B9004D00CD371D /* LWXNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWXNavigationController.h; sourceTree = "<group>"; };
+		7A36212D21B9004D00CD371D /* LWXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWXNavigationController.m; sourceTree = "<group>"; };
+		7A36212E21B9004D00CD371D /* KeyFrameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyFrameViewController.h; sourceTree = "<group>"; };
+		7A36212F21B9004D00CD371D /* BezierPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierPathView.h; sourceTree = "<group>"; };
+		7A36213021B9004D00CD371D /* UIViewController+NavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavigationBar.m"; sourceTree = "<group>"; };
+		7A36213121B9004D00CD371D /* BezierPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierPathView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +119,18 @@
 		7A3620F321B9001300CD371D /* GCDAnimationRunLoop */ = {
 			isa = PBXGroup;
 			children = (
+				7A36212F21B9004D00CD371D /* BezierPathView.h */,
+				7A36213121B9004D00CD371D /* BezierPathView.m */,
+				7A36212721B9004C00CD371D /* CAAnimationDelegateObject.h */,
+				7A36212621B9004C00CD371D /* CAAnimationDelegateObject.m */,
+				7A36212E21B9004D00CD371D /* KeyFrameViewController.h */,
+				7A36212921B9004D00CD371D /* KeyFrameViewController.m */,
+				7A36212C21B9004D00CD371D /* LWXNavigationController.h */,
+				7A36212D21B9004D00CD371D /* LWXNavigationController.m */,
+				7A36212B21B9004D00CD371D /* RunLoopViewController.h */,
+				7A36212821B9004C00CD371D /* RunLoopViewController.m */,
+				7A36212A21B9004D00CD371D /* UIViewController+NavigationBar.h */,
+				7A36213021B9004D00CD371D /* UIViewController+NavigationBar.m */,
 				7A3620F421B9001300CD371D /* AppDelegate.h */,
 				7A3620F521B9001300CD371D /* AppDelegate.m */,
 				7A3620F721B9001300CD371D /* ViewController.h */,
@@ -262,9 +292,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A36213621B9004D00CD371D /* UIViewController+NavigationBar.m in Sources */,
+				7A36213221B9004D00CD371D /* CAAnimationDelegateObject.m in Sources */,
+				7A36213321B9004D00CD371D /* RunLoopViewController.m in Sources */,
 				7A3620F921B9001300CD371D /* ViewController.m in Sources */,
 				7A36210421B9001500CD371D /* main.m in Sources */,
+				7A36213421B9004D00CD371D /* KeyFrameViewController.m in Sources */,
 				7A3620F621B9001300CD371D /* AppDelegate.m in Sources */,
+				7A36213721B9004D00CD371D /* BezierPathView.m in Sources */,
+				7A36213521B9004D00CD371D /* LWXNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
